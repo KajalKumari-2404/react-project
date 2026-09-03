@@ -22,6 +22,7 @@ import React from 'react'
 import { Header } from '../components/Header'
 import { NetflixSeries } from '../components/NetflixSeries'
 import '../components/Netflix.css'
+import '../components/Netflix.module.css'
 import { Footer } from '../components/Footer'
 
 export const App = () => {
