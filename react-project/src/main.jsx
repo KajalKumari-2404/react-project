@@ -6,7 +6,7 @@ import './index.css'
 // import { App } from './App'
 // import App from './App.jsx '
 import { App } from './pages/App'
-import Profile from './components/Profile'
+// import Profile from './components/Profile'
 
 
 
@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
     <App />
-    <Profile />
+    {/* <Profile /> */}
     </BrowserRouter>
   </StrictMode>,
 )

@@ -4,7 +4,7 @@ import { SeriesCard } from './SeriesCard'
 
 export const NetflixSeries = () => {
   return (
-    <ul>
+    <ul className="grid grid-three--cols">
       {seriesData.map((curElem) => {
         return <SeriesCard key={curElem.id} data={curElem} //ye key props most imp h
           />
