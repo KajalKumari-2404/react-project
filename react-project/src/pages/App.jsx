@@ -27,7 +27,8 @@ import { Footer } from '../components/Footer'
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 import '../components/EV.css';
-import { EventPropagation } from '../components/EventPropagation'
+import { State } from '../components/hooks/State';
+// import { EventPropagation } from '../components/EventPropagation'
 
 export const App = () => {
   return (
@@ -36,7 +37,8 @@ export const App = () => {
     {/* <NetflixSeries /> */}
     {/* <EventHandling /> */}
     {/* <EventProps /> */}
-    <EventPropagation />
+    {/* <EventPropagation /> */}
+    <State />
     </section>
   );
     }
