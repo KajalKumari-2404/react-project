@@ -27,7 +27,7 @@ import { Footer } from '../components/Footer'
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 import '../components/EV.css';
-import { State } from '../components/hooks/State';
+import { Sibling, State } from '../components/hooks/State';
 // import { EventPropagation } from '../components/EventPropagation'
 
 export const App = () => {
@@ -39,6 +39,7 @@ export const App = () => {
     {/* <EventProps /> */}
     {/* <EventPropagation /> */}
     <State />
+    <Sibling />
     </section>
   );
     }
@@ -46,6 +47,15 @@ export const App = () => {
 
 
 
+
+//     export function Sibling(){
+//   console.log("Sibling Component rendered");
+//   return (
+//   <div className='main-div'>
+//     <h2>Sibling Component </h2>
+//   </div>
+//   );
+// }
 
 
 
