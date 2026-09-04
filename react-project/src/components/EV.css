@@ -41,3 +41,26 @@
 .events-handling {
     display: flex;
 }
+
+/* Common button styling */
+.events-handling button {
+    padding: 1.2rem 2.4rem;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+/* Click button */
+.click-btn {
+    background-color: #f7dc6f;
+}
+
+/* Hover button */
+.hover-btn {
+    background-color: #82e0aa;
+}
+
+/* Greeting button */
+.greeting-btn {
+    background-color: #f7dc6f;
+}
