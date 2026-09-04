@@ -57,7 +57,9 @@ export const SeriesCard = ({ data }) => {
     {/* <div className="text-white p-10"> */}
     <div className="text-white">
 
-      <div className="card-image">
+      <div>
+
+      {/* <div className="card-image"> */}
         {/* <img
           src={img_url}
           alt={name}
@@ -67,10 +69,16 @@ export const SeriesCard = ({ data }) => {
           <img
           src={img_url}
           alt={name}
-          className="card-image"
+          className={styles["card-image"]}
+          // className="card-image"
           />
       </div>
-      <div className={styles["card-content"]}>
+      {/* <div className={styles["card-content"]}> */}
+      {/* <div className="flex flex-col gap-6 px-6 py-6"> //extend spacing scale ke through padding aise denge  */}
+
+      //arbitary values me aise denge
+      <div className="flex flex-col gap-6 py-[3.2rem] px-[1.2rem]">
+
 
       <h2>Name: {name} </h2>
 
@@ -78,7 +86,7 @@ export const SeriesCard = ({ data }) => {
         <span className={`${styles.rating} ${ratingClass}`}> {rating} </span> 
         </Rating>
 
-      <p>Summary: {description} </p>
+      <p className="text-3xl font-bold underline text-cyan-300">Summary: {description} </p>
 
       <p>Genre: {genre} </p>
 
