@@ -22,10 +22,12 @@ import React from 'react'
 import { Header } from '../components/Header'
 // import { NetflixSeries } from '../components/NetflixSeries'
 // import '../components/Netflix.css'
-import '../components/Netflix.module.css'
+// import '../components/Netflix.module.css'
 import { Footer } from '../components/Footer'
 // import { EventHandling } from '../components/EventHandling'
-import { EventProps } from '../components/EventProps'
+// import { EventProps } from '../components/EventProps'
+import '../components/EV.css';
+import { EventPropagation } from '../components/EventPropagation'
 
 export const App = () => {
   return (
@@ -33,7 +35,8 @@ export const App = () => {
       {/* <h1 className='card-heading'>List of Best Netflix Series</h1> */}
     {/* <NetflixSeries /> */}
     {/* <EventHandling /> */}
-    <EventProps />
+    {/* <EventProps /> */}
+    <EventPropagation />
     </section>
   );
     }
