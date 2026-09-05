@@ -27,7 +27,8 @@ import { Footer } from '../components/Footer'
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 import '../components/EV.css';
-import { Sibling, State } from '../components/hooks/State';
+// import { Sibling, State } from '../components/hooks/State';
+import { DerivedState } from '../components/DerivedState';
 // import { EventPropagation } from '../components/EventPropagation'
 
 export const App = () => {
@@ -38,8 +39,9 @@ export const App = () => {
     {/* <EventHandling /> */}
     {/* <EventProps /> */}
     {/* <EventPropagation /> */}
-    <State />
-    <Sibling />
+    {/* <State /> */}
+    {/* <Sibling /> */}
+    <DerivedState />
     </section>
   );
     }

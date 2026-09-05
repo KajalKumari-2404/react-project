@@ -42,11 +42,11 @@ function ChildComponent({ count }){
   );
 }
 
-export function Sibling(){
-  console.log("Sibling Component rendered");
-  return (
-  <div className='main-div'>
-    <h2>Sibling Component </h2>
-  </div>
-  );
-}
+// export function Sibling(){
+//   console.log("Sibling Component rendered");
+//   return (
+//   <div className='main-div'>
+//     <h2>Sibling Component </h2>
+//   </div>
+//   );
+// }
