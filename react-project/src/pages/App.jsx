@@ -27,7 +27,8 @@ import { Footer } from '../components/Footer'
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 import '../components/EV.css';
-import { LiftStateUp } from '../components/LiftStateUp';
+import { ToggleSwitch } from '../projects/ToggleSwitch/ToggleSwitch';
+// import { LiftStateUp } from '../components/LiftStateUp';
 // import { Sibling, State } from '../components/hooks/State';
 // import { DerivedState } from '../components/DerivedState';
 // import { EventPropagation } from '../components/EventPropagation'
@@ -43,7 +44,8 @@ export const App = () => {
     {/* <State /> */}
     {/* <Sibling /> */}
     {/* <DerivedState /> */}
-    <LiftStateUp />
+    {/* <LiftStateUp /> */}
+    <ToggleSwitch />
     </section>
   );
     }
