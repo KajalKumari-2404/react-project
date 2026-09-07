@@ -13,15 +13,21 @@ export const Todo = ({onAddTodo}) => {
     
 
     const handleFormSubmit = (inputValue) => {
+        const {id, content, checked} =inputValue;
         // event.preventDefault();
-
-        if (!inputValue) return;
-
-        if (task.includes(inputValue)) return;
+        // to check if the input field is empty or not
+        if (!content) return;
+        //to check if the data is already existing or not
+        // if (task.includes(inputValue)) return;
             // setInputValue("");
         // };
 
-        setTask((prevTask) => [...prevTask, inputValue]);
+        const ifTodoContentMatched = task.find(
+            (curTask) => curTask.content === content
+        );
+        if (ifTodoContentMatched) return;
+
+        setTask((prevTask) => [...prevTask, { id, content, checked}]);
 
 
         // setInputValue("");
@@ -42,15 +48,28 @@ export const Todo = ({onAddTodo}) => {
     // Todo handleDeleteTodo function
 
     const handleDeleteTodo = (value) => {
-        console.log(task);
-        console.log(value);
-        const updatedTask = task.filter((curTask) => curTask !== value);
+        // console.log(task);
+        // console.log(value);
+        const updatedTask = task.filter((curTask) => curTask.content 
+        !== value);
         setTask(updatedTask);
     };
 
     //todo handleClearTodoData functionality
     const handleClearTodoData = () => {
         setTask([]);
+    };
+
+    // todo handleCheckedTodo functionality
+    const handleCheckedTodo = (content) => {
+      const updatedTask = task.map((curTask) => {
+        if(curTask.content === content){
+            return { ...curTask, checked: !curTask.checked };
+        } else {
+            return curTask;
+        }
+      });
+      setTask(updatedTask);
     };
 
 
@@ -67,12 +86,14 @@ export const Todo = ({onAddTodo}) => {
         <section className='myUnOrdList'>
             <ul>
                 {
-                    task.map((curTask, index) => {
+                    task.map((curTask) => {
                         return (
                         <TodoList 
-                        key={index} 
-                        data={curTask} 
-                        onHandleDeleteTodo = {handleDeleteTodo}/>
+                        key={curTask.id} 
+                        data={curTask.content}
+                        checked= {curTask.checked} 
+                        onHandleDeleteTodo = {handleDeleteTodo}
+                        onHandleCheckedTodo = {handleCheckedTodo}/>
                         // <li key={index} className='todo-item'>
                         //     <span>{curTask}</span>
                         //     <button className='check-btn'>

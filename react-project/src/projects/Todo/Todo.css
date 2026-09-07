@@ -170,6 +170,14 @@ form button {
     justify-content: center;
 }
 
+.checkList {
+    text-decoration: line-through;
+}
+
+.notCheckList {
+    text-decoration: none;
+}
+
 
 .clear-btn {
     border: none;
