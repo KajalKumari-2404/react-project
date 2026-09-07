@@ -5,9 +5,27 @@ import "./Todo.css";
 import { TodoForm } from './TodoForm';
 import { TodoList } from './TodoList';
 import { TodoDate } from './TodoDate';
+import { data } from 'react-router-dom';
 
-export const Todo = ({onAddTodo}) => {
-    const [task, setTask] = useState([]);
+import {
+    getLocalStorageTodoData,
+    setLocalStorageTodoData,
+} from"./TodoLocalStorage";
+
+// const todoKey = "reactTodo";
+
+// const getLocalStorageTodoData = () => {
+//     const rawTodos = localStorage.getItem(todoKey);
+//         if (!rawTodos) return [];
+//         return JSON.parse(rawTodos);
+//     };
+
+export const Todo = () => {
+    const [task, setTask] = useState(() => getLocalStorageTodoData());
+        // const rawTodos = localStorage.getItem(todoKey);
+        // if (!rawTodos) return [];
+        // return JSON.parse(rawTodos);
+    // });
     // const [dateTime, setDateTime] = useState("");
 
     
@@ -32,6 +50,11 @@ export const Todo = ({onAddTodo}) => {
 
         // setInputValue("");
     };
+
+    // todo add data to localStorage
+    setLocalStorageTodoData(task);
+    // localStorage.setItem("todoKey", JSON.stringify(task));
+
 
     // //todo date and time
     // useEffect(() => {
