@@ -24,10 +24,11 @@ import { Header } from '../components/Header'
 // import '../components/Netflix.css'
 // import '../components/Netflix.module.css'
 import { Footer } from '../components/Footer'
+import CounterChallenge from '../components/hooks/useState/Challenge';
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 // import '../components/EV.css';
-import { Counter } from '../components/hooks/useState';
+// import { Counter } from '../components/hooks/useState';
 // import { Todo } from '../projects/Todo/Todo';
 // import { Keys } from '../Keys';
 // import ShortCircuitExample from '../components/ShortCircuit';
@@ -53,7 +54,8 @@ export const App = () => {
     {/* <Todo /> */}
     {/* <Keys /> */}
     {/* <ShortCircuitExample /> */}
-    <Counter />
+    {/* <Counter /> */}
+    <CounterChallenge />
     </section>
   );
     };
