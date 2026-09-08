@@ -26,10 +26,11 @@ import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
-import '../components/EV.css';
+// import '../components/EV.css';
+import { Counter } from '../components/hooks/useState';
 // import { Todo } from '../projects/Todo/Todo';
 // import { Keys } from '../Keys';
-import ShortCircuitExample from '../components/ShortCircuit';
+// import ShortCircuitExample from '../components/ShortCircuit';
 // import { ToggleSwitch } from '../projects/ToggleSwitch/ToggleSwitch';
 // import { LiftStateUp } from '../components/LiftStateUp';
 // import { Sibling, State } from '../components/hooks/State';
@@ -51,7 +52,8 @@ export const App = () => {
     {/* <ToggleSwitch /> */}
     {/* <Todo /> */}
     {/* <Keys /> */}
-    <ShortCircuitExample />
+    {/* <ShortCircuitExample /> */}
+    <Counter />
     </section>
   );
     };
