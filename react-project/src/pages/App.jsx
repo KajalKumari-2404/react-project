@@ -28,7 +28,8 @@ import { Footer } from '../components/Footer'
 // import { EventProps } from '../components/EventProps'
 import '../components/EV.css';
 // import { Todo } from '../projects/Todo/Todo';
-import { Keys } from '../Keys';
+// import { Keys } from '../Keys';
+import ShortCircuitExample from '../components/ShortCircuit';
 // import { ToggleSwitch } from '../projects/ToggleSwitch/ToggleSwitch';
 // import { LiftStateUp } from '../components/LiftStateUp';
 // import { Sibling, State } from '../components/hooks/State';
@@ -49,7 +50,8 @@ export const App = () => {
     {/* <LiftStateUp /> */}
     {/* <ToggleSwitch /> */}
     {/* <Todo /> */}
-    <Keys />
+    {/* <Keys /> */}
+    <ShortCircuitExample />
     </section>
   );
     };
