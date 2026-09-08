@@ -27,7 +27,8 @@ import { Footer } from '../components/Footer'
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 import '../components/EV.css';
-import { Todo } from '../projects/Todo/Todo';
+// import { Todo } from '../projects/Todo/Todo';
+import { Keys } from '../Keys';
 // import { ToggleSwitch } from '../projects/ToggleSwitch/ToggleSwitch';
 // import { LiftStateUp } from '../components/LiftStateUp';
 // import { Sibling, State } from '../components/hooks/State';
@@ -47,7 +48,8 @@ export const App = () => {
     {/* <DerivedState /> */}
     {/* <LiftStateUp /> */}
     {/* <ToggleSwitch /> */}
-    <Todo />
+    {/* <Todo /> */}
+    <Keys />
     </section>
   );
     };

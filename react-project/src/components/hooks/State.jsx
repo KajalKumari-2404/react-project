@@ -21,7 +21,7 @@ export const State = () => {
     };
   return (
     <>
-    <div className="main-div">
+    <div className="main-div ">
     
         <h1>{count}</h1>
         <button onClick={handleButtonClick}>Increment</button>
