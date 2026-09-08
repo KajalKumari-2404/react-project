@@ -1,9 +1,25 @@
 import { useState } from "react";
 import "./hooks/Hooks.css";
 
-const ShortCircuitExample = () => {
+const ShortCircuitExample = () => { // ye componenet h
     const[isLoggedIn, setIsLoggedIn] = useState(true);
-    const[user, setUser] = useState("")
+    const[user, setUser] = useState("");
+    // const[count, setCount] = useState(0);
+
+   if (user) {
+       const[count, setCount] = useState(0);
+    // setCount(count + 1);
+   }
+   ``;
+
+//    const getData = () => {
+//         const[data, setData] = useState(0); //ye js function h
+
+//    }
+
+
+//    getData();
+
     return (
         <section className="container short-container">
 
