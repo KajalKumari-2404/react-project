@@ -19,12 +19,13 @@
 
 
 import React from 'react'
-import { Header } from '../components/Header'
+// import { Header } from '../components/Header'
 // import { NetflixSeries } from '../components/NetflixSeries'
 // import '../components/Netflix.css'
 // import '../components/Netflix.module.css'
-import { Footer } from '../components/Footer'
-import CounterChallenge from '../components/hooks/useState/Challenge';
+// import { Footer } from '../components/Footer'
+// import CounterChallenge from '../components/hooks/useState/Challenge';
+import ControlledForm from '../components/hooks/useState/Controlled';
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 // import '../components/EV.css';
@@ -55,7 +56,8 @@ export const App = () => {
     {/* <Keys /> */}
     {/* <ShortCircuitExample /> */}
     {/* <Counter /> */}
-    <CounterChallenge />
+    {/* <CounterChallenge /> */}
+    <ControlledForm />
     </section>
   );
     };
