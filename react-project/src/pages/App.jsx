@@ -25,8 +25,9 @@ import React from 'react'
 // import '../components/Netflix.module.css'
 // import { Footer } from '../components/Footer'
 // import CounterChallenge from '../components/hooks/useState/Challenge';
-import ControlledForm from '../components/hooks/useState/Controlled';
-import { RegistrationForm } from '../components/hooks/Registration';
+// import ControlledForm from '../components/hooks/useState/Controlled';
+// import { RegistrationForm } from '../components/hooks/Registration';
+import { RegistrationFormReact } from '../components/hooks/RegistrationReact';
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 // import '../components/EV.css';
@@ -59,7 +60,8 @@ export const App = () => {
     {/* <Counter /> */}
     {/* <CounterChallenge /> */}
     {/* <ControlledForm /> */}
-    <RegistrationForm />
+    {/* <RegistrationForm /> */}
+    <RegistrationFormReact />
     </section>
   );
     };
