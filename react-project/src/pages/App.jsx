@@ -26,6 +26,7 @@ import React from 'react'
 // import { Footer } from '../components/Footer'
 // import CounterChallenge from '../components/hooks/useState/Challenge';
 import ControlledForm from '../components/hooks/useState/Controlled';
+import { RegistrationForm } from '../components/hooks/Registration';
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 // import '../components/EV.css';
@@ -57,7 +58,8 @@ export const App = () => {
     {/* <ShortCircuitExample /> */}
     {/* <Counter /> */}
     {/* <CounterChallenge /> */}
-    <ControlledForm />
+    {/* <ControlledForm /> */}
+    <RegistrationForm />
     </section>
   );
     };

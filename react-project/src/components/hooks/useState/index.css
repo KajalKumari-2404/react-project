@@ -1,0 +1,94 @@
+/* Registration Form */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f3ff;
+}
+
+/* Main form container */
+
+.container {
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+/* Paragraph */
+
+.container p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+
+.container label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* Input fields */
+
+.container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Input focus */
+
+.container input:focus {
+    outline: none;
+    border: 2px solid dodgerblue;
+}
+
+/* Terms & Privacy */
+
+.container a {
+    text-decoration: none;
+}
+
+/* Button */
+
+.clearfix {
+    margin-top: 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover */
+
+.btn:hover {
+    background-color: #333;
+}

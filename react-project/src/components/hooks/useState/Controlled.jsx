@@ -11,6 +11,8 @@ const ControlledForm = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+        // Normally HTML form submit hone par browser page reload kar deta hai.
+        // React me hum usually page reload nahi chahte.isiliye event.preventDefault(); ye use hota h
 
         // Handle form submission with the controlled state (name)
         console.log(name);
