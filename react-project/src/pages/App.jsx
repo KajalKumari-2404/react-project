@@ -28,6 +28,7 @@ import React from 'react'
 // import ControlledForm from '../components/hooks/useState/Controlled';
 // import { RegistrationForm } from '../components/hooks/Registration';
 import { RegistrationFormReact } from '../components/hooks/RegistrationReact';
+import { LoginForm } from '../components/hooks/useState/LoginForm';
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 // import '../components/EV.css';
@@ -61,7 +62,8 @@ export const App = () => {
     {/* <CounterChallenge /> */}
     {/* <ControlledForm /> */}
     {/* <RegistrationForm /> */}
-    <RegistrationFormReact />
+    {/* <RegistrationFormReact /> */}
+    <LoginForm />
     </section>
   );
     };
