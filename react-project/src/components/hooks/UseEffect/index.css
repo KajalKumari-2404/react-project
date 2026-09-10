@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(1, 1, 28, 0.927);
+}
+
+.h11 {
+    color: white;
+    align-items: center;
+    margin-left: 650px;
+    font-size: 40px;
+    
+}
+
+.container .effect-container {
+    color: white;
+    align-items: center;
+    margin-left: 650px;
+    font-size: 40px;
+    margin-top: 80px;
+
+}
+
+.btn{
+    background-color: rgba(0, 128, 0, 0.778);
+    padding: 10px;
+
+}
+
+.count{
+    font-size: 20px;
+}

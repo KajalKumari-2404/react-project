@@ -29,7 +29,8 @@ import React from 'react'
 // import { RegistrationForm } from '../components/hooks/Registration';
 // import { RegistrationFormReact } from '../components/hooks/RegistrationReact';
 // import { LoginForm } from '../components/hooks/useState/LoginForm';
-import { ContactForm } from '../components/hooks/useState/ContactForm';
+// import { ContactForm } from '../components/hooks/useState/ContactForm';
+import { ReactUseEffect } from '../components/hooks/UseEffect';
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 // import '../components/EV.css';
@@ -65,7 +66,8 @@ export const App = () => {
     {/* <RegistrationForm /> */}
     {/* <RegistrationFormReact /> */}
     {/* <LoginForm /> */}
-    <ContactForm />
+    {/* <ContactForm /> */}
+    <ReactUseEffect />
     </section>
   );
     };
