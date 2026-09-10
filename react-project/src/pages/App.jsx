@@ -31,7 +31,8 @@ import React from 'react'
 // import { LoginForm } from '../components/hooks/useState/LoginForm';
 // import { ContactForm } from '../components/hooks/useState/ContactForm';
 // import { ReactUseEffect } from '../components/hooks/UseEffect';
-import { Challenge } from '../components/hooks/UseEffect/EffectChallenge';
+// import { Challenge } from '../components/hooks/UseEffect/EffectChallenge';
+import { CleanUp } from '../components/hooks/UseEffect/CleanUp';
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 // import '../components/EV.css';
@@ -69,7 +70,8 @@ export const App = () => {
     {/* <LoginForm /> */}
     {/* <ContactForm /> */}
     {/* <ReactUseEffect /> */}
-    <Challenge />
+    {/* <Challenge /> */}
+    <CleanUp />
     </section>
   );
     };
