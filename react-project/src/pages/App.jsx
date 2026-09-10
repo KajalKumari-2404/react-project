@@ -30,7 +30,8 @@ import React from 'react'
 // import { RegistrationFormReact } from '../components/hooks/RegistrationReact';
 // import { LoginForm } from '../components/hooks/useState/LoginForm';
 // import { ContactForm } from '../components/hooks/useState/ContactForm';
-import { ReactUseEffect } from '../components/hooks/UseEffect';
+// import { ReactUseEffect } from '../components/hooks/UseEffect';
+import { Challenge } from '../components/hooks/UseEffect/EffectChallenge';
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 // import '../components/EV.css';
@@ -67,7 +68,8 @@ export const App = () => {
     {/* <RegistrationFormReact /> */}
     {/* <LoginForm /> */}
     {/* <ContactForm /> */}
-    <ReactUseEffect />
+    {/* <ReactUseEffect /> */}
+    <Challenge />
     </section>
   );
     };
