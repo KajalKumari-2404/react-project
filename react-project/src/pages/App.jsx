@@ -32,7 +32,8 @@ import React from 'react'
 // import { ContactForm } from '../components/hooks/useState/ContactForm';
 // import { ReactUseEffect } from '../components/hooks/UseEffect';
 // import { Challenge } from '../components/hooks/UseEffect/EffectChallenge';
-import { CleanUp } from '../components/hooks/UseEffect/CleanUp';
+// import { CleanUp } from '../components/hooks/UseEffect/CleanUp';
+import { HowNotToFetchApi } from '../components/hooks/UseEffect/HowNotToFetchApi';
 // import { EventHandling } from '../components/EventHandling'
 // import { EventProps } from '../components/EventProps'
 // import '../components/EV.css';
@@ -71,7 +72,8 @@ export const App = () => {
     {/* <ContactForm /> */}
     {/* <ReactUseEffect /> */}
     {/* <Challenge /> */}
-    <CleanUp />
+    {/* <CleanUp /> */}
+    <HowNotToFetchApi/>
     </section>
   );
     };
