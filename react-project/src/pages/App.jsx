@@ -47,9 +47,9 @@ import { HowNotToFetchApi } from '../components/hooks/UseEffect/HowNotToFetchApi
 // import { DerivedState } from '../components/DerivedState';
 // import { EventPropagation } from '../components/EventPropagation'
 
-export const App = () => {
-  return (
-    <section className='container'>
+// export const App = () => {
+  // return (
+    // <section className='container'>
       {/* <h1 className='card-heading'>List of Best Netflix Series</h1> */}
     {/* <NetflixSeries /> */}
     {/* <EventHandling /> */}
@@ -68,15 +68,45 @@ export const App = () => {
     {/* <ControlledForm /> */}
     {/* <RegistrationForm /> */}
     {/* <RegistrationFormReact /> */}
-    {/* <LoginForm /> */}
+    {/* <LoginForm  /> */}
     {/* <ContactForm /> */}
     {/* <ReactUseEffect /> */}
     {/* <Challenge /> */}
     {/* <CleanUp /> */}
-    <HowNotToFetchApi/>
-    </section>
-  );
-    };
+    {/* <HowNotToFetchApi/>/ */}
+    // </section>
+  // );
+    // };
+
+
+
+import Student from "../components/Revision";
+
+export function App() {
+    return (
+        <div>
+            <Student name="Kajal" age={20} />
+        </div>
+    );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
