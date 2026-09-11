@@ -80,15 +80,26 @@ import { HowNotToFetchApi } from '../components/hooks/UseEffect/HowNotToFetchApi
 
 
 
-import Student from "../components/Revision";
+// import Student from "../components/Revision";
 
-export function App() {
+// export function App() {
+//     return (
+//         <div>
+//             <Student name="Kajal" age={20} />
+//         </div>
+//     );
+// }
+
+
+import Product from "../components/Revision";
+
+export const App = () => {
     return (
         <div>
-            <Student name="Kajal" age={20} />
+            <Product name="Laptop" price={50000} />
         </div>
     );
-}
+};
 
 
 
