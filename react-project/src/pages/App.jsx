@@ -91,17 +91,33 @@ import { HowNotToFetchApi } from '../components/hooks/UseEffect/HowNotToFetchApi
 // }
 
 
-import Product from "../components/Revision";
+// import Product from "../components/Revision";
 
-export const App = () => {
-    return (
-        <div>
-            <Product name="Laptop" price={50000} />
-        </div>
-    );
-};
+// export const App = () => {
+//     return (
+//         <div>
+//             <Product name="Laptop" price={50000} />
+//         </div>
+//     );
+// };
 
 
+import Child from "../components/Revision";
+
+function Parent() {
+  const getData = (data) => {
+    console.log(data);
+  };
+
+  return (
+    <div>
+      <h1>Parent Component</h1>
+      <Child sendData={getData} />
+    </div>
+  );
+}
+
+export default Parent;
 
 
 

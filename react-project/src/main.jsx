@@ -5,7 +5,8 @@ import { BrowserRouter } from 'react-router-dom'
 import './index.css'
 // import { App } from './App'
 // import App from './App.jsx '
-import { App } from './pages/App'
+// import { App } from './pages/App'
+import App from './pages/App'
 // import Profile from './components/Profile'
 
 
