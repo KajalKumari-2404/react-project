@@ -33,7 +33,7 @@ const WelcomeUser = (props) => {
     };
     return (
         <>
-        <button className="click-btn" onClick={onButtonClick}>Click</button>
+        <button className="click-btn" onClick={onButtonClick}>Click Me</button>
         <button className="hover-btn" onMouseEnter={onMouseEnter}>Hover Me</button>
         <button className="greeting-btn" onClick={handleGreeting}>Greeting</button>
         </>

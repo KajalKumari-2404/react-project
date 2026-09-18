@@ -2,19 +2,22 @@ import React from 'react'
 
 export const Card = ({ series }) => {
   return (
-    <div className="bg-gray-800 rounded-lg p-5">
+    // <div className="bg-gray-800 rounded-lg p-5">
+    <div className="bg-gray-800 rounded-lg p-5 hover:scale-105 transition-transform duration-300">
       
       <img
         src={series.img_url}
         alt={series.name}
-        className="w-full h-64 object-cover rounded-lg"
+        // className="w-full h-64 object-cover rounded-lg"
+        className="w-full h-64 object-cover rounded-lg hover:opacity-80 transition"
       />
 
       <h2 className="text-2xl font-bold mt-4">
         {series.name}
       </h2>
 
-      <p className="mt-2">
+      {/* <p className="mt-2"> */}
+      <p className="mt-2 line-clamp-3">
         {series.description}
       </p>
 
