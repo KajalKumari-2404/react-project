@@ -106,7 +106,7 @@ export const RegistrationForm = () => {
 
                 <input
                     type="text"
-                    placeholder="Enter Email"
+                    placeholder="Enter Your Email Address"
                     name="email"
                     required
                     value={email}
@@ -119,7 +119,7 @@ export const RegistrationForm = () => {
 
                 <input
                     type="password"
-                    placeholder="Enter Password"
+                    placeholder="Enter Your Password"
                     name="password"
                     // autoComplete="new-password"
                     required

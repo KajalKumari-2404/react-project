@@ -41,7 +41,7 @@ export const ContactForm = () => {
                     <label htmlFor="username">Username</label>
 
                     <input
-                        type="text"
+                        // type="text"
                         name="username"
                         required
                         autoComplete="off"

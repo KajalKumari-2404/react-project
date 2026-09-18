@@ -13,8 +13,10 @@ const handleFormSubmit = (e) => {
         username,
         password,
     };
+
     console.log(loginData);
 };
+
 
     return (
         <div className="container">
