@@ -14,7 +14,6 @@ const ShortCircuitExample = () => { // ye componenet h
 
 //    const getData = () => {
 //         const[data, setData] = useState(0); //ye js function h
-
 //    }
 
 

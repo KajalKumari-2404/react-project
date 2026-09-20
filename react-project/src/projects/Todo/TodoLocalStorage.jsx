@@ -10,5 +10,4 @@ const todoKey = "reactTodo";
 
     export const setLocalStorageTodoData = (task) => {
      return localStorage.setItem("todoKey", JSON.stringify(task));
-
     };

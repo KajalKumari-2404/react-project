@@ -133,6 +133,6 @@ export const Todo = () => {
         <section>
             <button className='clear-btn' onClick={handleClearTodoData}>Clear all</button>
         </section>
-    </section>
+        </section>
   );
 };

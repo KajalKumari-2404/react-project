@@ -6,4 +6,4 @@ export const Ex2 = (props) => {
         main hu example 2 {props.user}
         </div>
   )
-}
+};

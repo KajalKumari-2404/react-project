@@ -8,7 +8,7 @@ export const LiftStateUp = () => {
     <InputComponent inputValue={inputValue} setInputValue={setInputValue} />
     <DisplayComponent inputValue={inputValue}/>
     </>
-  );
+    );
 };
 
 

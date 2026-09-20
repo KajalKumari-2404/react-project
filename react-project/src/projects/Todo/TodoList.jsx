@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { MdCheck, MdDeleteForever } from 'react-icons/md';
 
 // export const TodoList = ({ key, data, onHandleDeleteTodo }) => {

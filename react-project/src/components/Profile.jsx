@@ -12,7 +12,7 @@ function Profile() {
         greeting={
           <strong>Hi Alice, have a wonderful day!</strong>
         }
-      >
+        >
         <p>Hobbies: Reading, Hiking</p>
         <button>Contact</button>
       </ProfileCard>

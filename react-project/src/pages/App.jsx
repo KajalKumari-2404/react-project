@@ -115,7 +115,7 @@ function Parent() {
       <Child sendData={getData} />
     </div>
   );
-}
+};
 
 export default Parent;
 

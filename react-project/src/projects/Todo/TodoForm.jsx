@@ -11,7 +11,7 @@ const handleInputChange = (value) => {
         event.preventDefault();
         onAddTodo(inputValue);
         setInputValue({id:"", content:"", checked:false});
-    }
+    };
     
   return (
     <section className='form'>

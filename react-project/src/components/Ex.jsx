@@ -10,5 +10,5 @@ export const Ex = (props) => {
         <Ex2 user={props.name}/>
     </>
   )
-}
+};
 
