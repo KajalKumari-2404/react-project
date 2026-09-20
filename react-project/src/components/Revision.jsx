@@ -20,7 +20,9 @@
 
 // export default Product;
 
-
+// Yahan hum Child naam ka functional component bana rahe hain.
+// { sendData } kya hai?
+// Ye prop hai jo Parent component se Child ko mila hai.
 function Child({ sendData }) {
   const handleClick = () => {
     sendData("Hello Parent!");

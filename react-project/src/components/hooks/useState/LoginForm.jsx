@@ -35,7 +35,7 @@ const handleFormSubmit = (e) => {
                         autoComplete="off"
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
-                    />
+                        />
 
                     <label htmlFor="password">
                         Password
@@ -48,7 +48,7 @@ const handleFormSubmit = (e) => {
                         autoComplete="off"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                    />
+                        />
 
                     <button type="submit">
                         Login

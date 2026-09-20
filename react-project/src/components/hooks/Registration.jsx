@@ -111,7 +111,7 @@ export const RegistrationForm = () => {
                     required
                     value={email}
                     onChange={handleInputChange}
-                />
+                    />
 
                 <label htmlFor="password">
                     <b>Password</b>
