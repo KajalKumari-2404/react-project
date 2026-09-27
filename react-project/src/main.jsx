@@ -9,7 +9,6 @@ import './index.css'
 import App from './pages/App'
 // import Profile from './components/Profile'
 
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>

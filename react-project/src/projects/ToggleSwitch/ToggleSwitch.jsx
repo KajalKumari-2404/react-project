@@ -4,7 +4,6 @@ import { IoIosSwitch } from "react-icons/io";
 import { PiUserSwitchFill } from "react-icons/pi";
 
 
-
 export const ToggleSwitch = () => {
     const [isOn, setIsOn] = useState(false);
 
