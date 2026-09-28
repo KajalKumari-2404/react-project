@@ -14,5 +14,5 @@ import { MdCheck, MdDeleteForever } from 'react-icons/md';
                 <MdDeleteForever/>
                 </button>
                 </li>
-  );
+  )
 };

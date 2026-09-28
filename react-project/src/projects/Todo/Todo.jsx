@@ -27,7 +27,6 @@ export const Todo = () => {
         // return JSON.parse(rawTodos);
     // });
     // const [dateTime, setDateTime] = useState("");
-    
 
     const handleFormSubmit = (inputValue) => {
         const {id, content, checked} =inputValue;
