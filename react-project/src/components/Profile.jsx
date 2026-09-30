@@ -5,6 +5,7 @@ function Profile() {
   return (
     <div>
       <h1>Profile Card Challenge</h1>
+      
 
       <ProfileCard
         name="Alice"

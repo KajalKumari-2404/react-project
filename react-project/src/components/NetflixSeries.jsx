@@ -11,7 +11,7 @@ export const NetflixSeries = () => {
       })}
     </ul>
     )
-  }
+  };
       {/* <li>
     <div className="text-white p-10">
 

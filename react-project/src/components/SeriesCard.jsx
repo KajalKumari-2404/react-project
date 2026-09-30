@@ -29,6 +29,7 @@ export const SeriesCard = ({ data }) => {
 
     //template literals ke through
     
+    
     const ButtonThapa = styled.button`
       padding: 1.2rem 2.4rem;
       border: none;
