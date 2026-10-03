@@ -19,7 +19,6 @@ export const ReactUseEffect = () => {
 //   );
 // };
 
-
 const [date, setDate] = useState(0);
     useEffect(() => {
         setInterval(() => {
