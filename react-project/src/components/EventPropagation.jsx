@@ -1,5 +1,4 @@
 import "./EV.css";
-
 import React from 'react'
 
 export const EventPropagation = () => {

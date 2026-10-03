@@ -34,7 +34,6 @@ export const State = () => {
   );
 };
 
-
 function ChildComponent({ count }){
   console.log("Child Component rendered");
   return (

@@ -13,7 +13,6 @@ export const EventProps = () => {
         alert(`Hey Thanks for hovering me`);
     };
 
-
   return (
     <div className="events-handling">
     {/* //child component */}
