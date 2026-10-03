@@ -60,8 +60,7 @@ export const ContactForm = () => {
                         value={contacts.email}
                         // onChange={(e) => setEmail(e.target.value)}
                         onChange={handleInputChange}
-
-                    />
+                        />
 
                     <label htmlFor="message">Message</label>
 

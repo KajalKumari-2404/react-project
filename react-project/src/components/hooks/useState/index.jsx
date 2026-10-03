@@ -11,7 +11,6 @@ export const Counter = () => {
     };
     console.log("outer", count);
 
-
     return (
         <div className="container state-container " style={{
             textAlign: "center" }}>

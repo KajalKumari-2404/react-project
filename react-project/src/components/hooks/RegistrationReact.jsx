@@ -1,5 +1,4 @@
 
-
 // ? set up a functional component in react.
 //? create five seperate state variables (firstName lastName email password phone number).
 //? create input fields for eAch piece of information
@@ -19,7 +18,6 @@ export const RegistrationFormReact = () => {
       password: "",
       phoneNumber: "",
     });
-
 
 
 

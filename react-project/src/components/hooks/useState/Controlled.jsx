@@ -35,7 +35,7 @@ const ControlledForm = () => {
                         type="text"
                         value={name}
                         onChange={handleChange}
-                    />
+                        />
                 </label>
 
                 <br />

@@ -18,7 +18,6 @@ const CounterChallenge = () => {
         setCount(0);
     };
 
-
     return (
         <div className="container state-container">
 

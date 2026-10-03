@@ -4,7 +4,6 @@ import "./EV.css";
 
 export const EventProps = () => {
 
-
     // parent component
     const HandleWelcomeUser = (user) => {
         alert(`Hey, ${user}`);

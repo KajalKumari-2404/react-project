@@ -26,7 +26,7 @@ export const Card = ({ series }) => {
   target="_blank"
   rel="noopener noreferrer"
   className="inline-block bg-red-600 px-4 py-2 rounded mt-4"
->
+  >
   Watch Now
 </a>
 
