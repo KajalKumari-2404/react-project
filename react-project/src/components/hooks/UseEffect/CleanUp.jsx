@@ -12,6 +12,7 @@ export const CleanUp = () => {
     return () => clearInterval(timer);
 }, []);
 
+
     // setInterval(() => {
     //     setCount(count + 1);
     // }, 1000);
