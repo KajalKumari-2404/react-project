@@ -15,5 +15,5 @@ export const TodoDate = () => {
         }, []);
   return (
         <h2 className='date-time'>{dateTime}</h2>
-  )
+  );
 };

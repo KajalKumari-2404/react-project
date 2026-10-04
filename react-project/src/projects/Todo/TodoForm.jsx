@@ -31,4 +31,4 @@ const handleInputChange = (value) => {
                 </form>
             </section>
   )
-}
+};
