@@ -120,11 +120,21 @@ import { HowNotToFetchApi } from '../components/hooks/UseEffect/HowNotToFetchApi
 // export default Parent;
 
 
-import User from "./User";
+// import User from "./User";
+
+// const App = () => {
+//   return (
+//     <User name="Kajal" age={21} />
+//   );
+// };
+
+// export default App;
+
+import Product from "./Product";
 
 const App = () => {
   return (
-    <User name="Kajal" age={21} />
+    <Product name="Laptop" price={50000} />
   );
 };
 
