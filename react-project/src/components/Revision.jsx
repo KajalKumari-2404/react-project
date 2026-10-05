@@ -23,17 +23,18 @@
 // Yahan hum Child naam ka functional component bana rahe hain.
 // { sendData } kya hai?
 // Ye prop hai jo Parent component se Child ko mila hai.
-function Child({ sendData }) {
-  const handleClick = () => {
-    sendData("Hello Parent!");
-  };
+// function Child({ sendData }) {
+//   const handleClick = () => {
+//     sendData("Hello Parent!");
+//   };
 
-  return (
-    <div>
-      <h2>Child Component</h2>
-      <button onClick={handleClick}>Send Data</button>
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <h2>Child Component</h2>
+//       <button onClick={handleClick}>Send Data</button>
+//     </div>
+//   );
+// }
 
-export default Child;
+// export default Child;
+
